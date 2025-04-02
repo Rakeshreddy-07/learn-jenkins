@@ -29,7 +29,7 @@ pipeline {
         }
         stage('Deploy') {
             when {
-                brach 'production'
+                branch 'production'
             }
             steps {
                 sh 'echo This is deploy'
